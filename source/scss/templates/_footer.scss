@@ -1,0 +1,37 @@
+.footer {
+  background: #F7F7F7;
+  padding:50px 0;
+  .footer-menu {
+    margin-top:30px;
+    li {
+      display:inline-block;
+      margin:0 10px;
+      a {
+        color:#333;
+        font-size: 12px;
+      }
+    }
+  }
+  .copyright-text {
+    margin-top:20px;
+  }
+}
+.copyright-text {
+  a {
+    color: #fff;
+  }
+}
+
+.social-media {
+  li {
+    display:inline-block;
+    margin:0 5px;
+    a {
+      padding:8px 10px;
+      i {
+        font-size:20px;
+        color:#555;
+      }
+    }
+  }
+}

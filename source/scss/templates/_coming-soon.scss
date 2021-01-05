@@ -1,0 +1,71 @@
+.coming-soon {
+	color: $light;
+	padding:150px 0;
+	.block {
+    h1 {
+      font-size: 25px;
+      line-height:40px;
+      font-weight:400;
+    }
+    p {
+      color: $light;
+      margin-top:20px;
+      font-size:12px;
+    }
+    .count-down {
+      .syotimer-cell {
+        width: 25%;
+        display:inline-block;
+        .syotimer-cell__value {
+          font-size: 80px;
+          line-height:80px;
+          text-align: center;
+          position: relative;
+          font-weight: bold;
+
+        }
+        .syotimer-cell__unit {
+          font-weight:normal;
+        }
+      }
+      ul {
+        li {
+          @include tablet {
+            font-size:50px;
+          }
+          @include mobile {
+            font-size:50px;
+          }
+          @include mobile-xs {
+            font-size:40px;
+          }
+          
+          &:before {
+            content: ":";
+            font-size: 20pt;
+            opacity: 0.7;
+            position: absolute;
+            right: 0px;
+            top:0px;
+          }
+          &:last-child {
+            &:before {
+              content:'';
+            }
+          }
+        }
+      }
+      div:after {
+        content: " " attr(data-interval-text);
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: capitalize;
+        display: block;
+      }
+    }
+		
+	}
+}
+
+
+

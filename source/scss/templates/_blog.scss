@@ -1,0 +1,103 @@
+/*=================================================================
+  Latest Posts
+==================================================================*/
+
+.blog {
+  background: #F6F6F6;
+}
+
+.post {
+  background: $light;
+  margin-bottom: 40px;
+  border-bottom:1px solid $border-color;
+  padding-bottom:20px;
+
+  .post-media {
+    &.post-thumb {
+      img {
+        width: 100%;
+        height:auto;
+      }
+    }
+    &.post-media-audio {
+      iframe {
+        width: 100%;
+      }
+    }
+  }
+  .post-title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin: 25px 0 0;
+    padding: 0 20px 5px;
+    font-weight:300;
+    a {
+      color: #000;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  .post-meta {
+    font-size: 13px;
+    margin-top: 5px;
+    padding: 0 20px 5px;
+    ul {
+      li {
+        display: inline-block;
+        color:#5f5b5b;
+        margin-right: 20px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight:200;
+        a {
+          color:#5f5b5b;
+          &:hover {
+            color:$primary-color;
+          }
+        }
+      }
+    }
+    .post-author {
+      color:$black;
+    }
+  }
+  .post-content {
+    padding:5px 20px;
+    p {
+      color: #444;
+      font-size: 14px;
+      margin: 10px 0;
+    }
+    .btn-main {
+      padding:10px 20px;
+      margin:15px 0;
+      font-size:10px;
+    }
+  }
+}
+.post-pagination {
+  margin-top: 70px;
+  >li {
+    margin:0 2px;
+    display: inline-block;
+    font-size:12px;
+    >a {
+      color: $black;
+      &:hover {
+        color:$light;
+        background:$black;
+        border:1px solid $black;
+      }
+    }
+    &.active>a {
+      background: $primary-color;
+      border:1px solid $primary-color;
+    }
+  }
+  >li:first-child>a, >li:last-child>a {
+    border-radius: 0;
+  }
+}
+
+

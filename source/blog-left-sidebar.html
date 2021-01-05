@@ -1,0 +1,26 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm')
+
+@@include('blocks/page-header.htm', {
+    "title": "Blog",
+    "pagination": "blog"
+})
+
+<div class="page-wrapper">
+	<div class="container">
+		<div class="row">
+      		<div class="col-md-4">
+				@@include('blocks/post-sidebar.htm')
+      		</div>
+			<div class="col-md-8">
+        		@@include('blocks/blog-posts.htm')
+      		</div>
+		</div>
+	</div>
+</div>
+
+
+@@include('blocks/footer.htm')
+
+@@include('footer.htm')

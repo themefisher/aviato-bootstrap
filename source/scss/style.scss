@@ -1,0 +1,113 @@
+/*------------------------------------------------------------------
+
+THEME: Aviato | E-commerce template
+VERSION: 1.0.0
+AUTHOR: Themefisher
+
+HOMEPAGE: https://themefisher.com/products/aviato-e-commerce-template/
+DEMO: https://demo.themefisher.com/aviato/
+GITHUB: https://github.com/themefisher/Aviato-E-Commerce-Template/
+
+WEBSITE: https://themefisher.com
+TWITTER: https://twitter.com/themefisher
+FACEBOOK: https://www.facebook.com/themefisher
+
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+	2. Header 
+		2.1. Navigation 
+		2.2. Menu 
+		2.3. Cart 
+	3. Banner
+		3.1 Revolution Slider
+	4. Products
+		4.1 Product Item
+		4.2 Single Product
+	5. Pricing
+	6. Clients
+	7. Instagram Feed 
+	8. User Dashboard
+		8.1 User Profile
+	9. Blog
+		9.1 Post
+		9.2 Post Pagination
+		9.3 Single Post
+		9.4 Post Sidebar
+	10. Backgrounds
+	11. Comming Soon
+	12. Account Page
+	13. Shopping
+		13.1 Checkout
+		13.2 Shopping Cart
+		13.3 Product Checkout Details
+		13.4 Purchase Confirmation
+		13.5 Empty Cart
+		13.6 Success Message
+	14.404 Page
+	15. Contact 
+		15.1  Contact Form 
+		15.2 Contact Details
+		15.3 Social Icons
+	16.Footer
+	
+
+-------------------------------------------------------------------*/
+
+
+@import 'variables.scss';
+
+@import 'media-query.scss';
+
+@import 'typography.scss';
+
+@import 'common.scss';
+
+@import 'templates/header.scss';
+
+@import 'templates/navigation.scss';
+
+@import 'templates/slider.scss';
+
+@import 'templates/products.scss';
+
+@import 'templates/single-product.scss';
+
+@import 'templates/pricing.scss';
+
+@import 'templates/clients.scss';
+
+@import 'templates/about.scss';
+
+@import 'templates/instagram.scss';
+
+@import 'templates/user-dashboard.scss';
+
+@import 'templates/blog.scss';
+
+@import 'templates/single-post.scss';
+
+@import 'templates/blog-sidebar.scss';
+
+@import 'templates/backgrounds.scss';
+
+@import 'templates/coming-soon.scss';
+
+@import 'templates/account.scss';
+
+@import 'templates/shopping.scss';
+
+@import 'templates/404.scss';
+
+@import 'templates/contact.scss';
+
+@import 'templates/footer.scss';
+
+
+
+
+
+

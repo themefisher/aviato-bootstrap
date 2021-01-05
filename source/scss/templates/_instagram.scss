@@ -1,0 +1,18 @@
+.instagram-feed {
+	text-align: center;
+	a {
+		margin:6px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		display: flex;
+		align-items: center;
+		&:hover img {
+			filter: grayscale(10);
+		}
+		img {
+			width: 100%;
+			max-height: 180px;
+			object-fit: cover;
+		}
+	}
+}

@@ -1,0 +1,202 @@
+// Top Header
+.top-header {
+  .container {
+    padding-top:35px;
+    padding-bottom:35px;
+    border-bottom:1px solid $border-color;
+
+  }
+  .dropdown-menu {
+    left: auto;
+    right: 0;
+    max-width: 300px;
+    @include mobile {
+      right:0;
+      left:0;
+      max-width:100%;
+    }
+    }
+  .contact-number {
+    font-size:12px;
+    color:#333;
+    @include mobile {
+      text-align:center;
+    }
+    @include tablet {
+      text-align:center;
+      padding:10px 0;
+    }
+    i {
+      margin-right:4px;
+      font-size:18px;
+      vertical-align:middle;
+    }
+  }
+  .top-menu {
+    @include tablet {
+      text-align:center;
+      padding:10px 0;
+    }
+    >li {
+      >a {
+        color: #333;
+        font-size:15px;
+        padding:0 8px;
+        &:hover, &:focus {
+          background: transparent;
+        }
+        i {
+          font-size:16px;
+          margin-right:2px;
+          vertical-align:middle;
+        }
+      }
+    }
+  }
+  .logo {
+    @include mobile {
+      padding:10px;
+    }
+    @include tablet {
+      padding:10px;
+    }
+    a {
+      display:inline-block;
+    }
+  }
+}
+
+// Cart Menu 
+.cart-dropdown {
+  .media {
+    position:relative;
+    border-bottom:1px solid $border-color;
+    padding-bottom:15px;
+    .pull-left {
+      padding-right:15px;
+    }
+  }
+  img {
+    width: 60px;
+  }
+  h4 {
+    color: #000;
+    font-weight:300;
+    font-size: 14px;
+  }
+  .cart-price {
+    color: #7f7f7f;
+    font-size: 12px;
+    font-weight:200;
+  }
+  .remove {
+    padding:1px 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #f7f8f9;
+    color: #7f7f7f;
+    font-size:12px;
+  }
+}
+.cart-buttons {
+  margin-top:20px;
+  li {
+    display:inline-block;
+    width: 49%;
+    a {
+      display:block;
+    }
+  }
+}
+.cart-summary {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #000;
+  font-size: 14px;
+  .total-price {
+    float: right;
+  }
+}
+
+
+
+
+
+
+// Main Menu Scss File
+.navigation {
+  margin-bottom:0;
+  padding:10px 0;
+  .menu-title {
+    display:none;
+    font-size:16px;
+    @include mobile {
+      display:inline-block;
+      padding-left:10px;
+    }
+    @include tablet {
+      display:inline-block;
+      padding-left:10px;
+    }
+  }
+  .navbar-nav > li {
+    position: static;
+    &.active {
+      a {
+        color:$primary-color;
+      }
+    }
+     > a {
+      color: #333;
+      font-size: 14px;
+      padding: 20px 15px;
+      text-transform: uppercase;
+      transition: .2s ease-in-out 0s;
+      border:1px solid transparent;
+      &:hover, &:active, &:focus{
+        background: none;
+        color: $primary-color;
+      }
+    }
+  }
+  .container {
+    position: relative;
+  }
+
+  .nav .open>a {
+    border:1px solid transparent;
+    background-color: transparent;
+  }
+  .navbar-nav {
+    float: none;
+    display: inline-block;
+  }
+
+  .dropdown-slide {
+    .dropdown-menu {
+      right: auto;
+      left: auto;
+      border:none;
+      li {
+        a {
+          color: #222;
+          font-size: 12px;
+          border:1px solid transparent;
+          display: block;
+          padding: 8px 16px;
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
+          -webkit-transition: .3s all;
+          -o-transition: .3s all;
+          transition: .3s all;
+          &:hover {
+            background-color: $black;
+            color:$light;
+          }
+        }
+        
+      }
+    }
+  }
+}

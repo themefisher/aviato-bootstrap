@@ -1,0 +1,119 @@
+
+/*=================================================================
+  Contact
+  ==================================================================*/
+
+  .contact-us {
+    padding: 100px 0 ;
+  }
+
+  .contact-form {
+    margin-bottom: 40px;
+    .form-control {
+      background-color: transparent;
+      border: 1px solid #dedede;
+      box-shadow: none;
+      height: 45px!important;
+      color: #0c0c0c;
+      height: 38px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      border-radius: 0;
+    }
+    input:hover, 
+    textarea:hover,
+    #contact-submit:hover {
+      border-color: $primary-color;
+    }
+    #contact-submit {
+      border:none;
+      padding: 15px 0;
+      width: 100%;
+      margin: 0;
+      background: $primary-color;
+      color:$light;
+      border-radius: 0;
+    }
+    textarea.form-control {
+      padding: 10px;
+      height: 120px!important;
+      outline: none;
+    }
+  }
+
+  .contact-details {
+      #map {
+        width: 100%;
+        height:300px;
+      }
+    .google-map {
+    }
+    .contact-short-info {
+      margin-top:20px;
+      li {
+        margin-bottom: 6px;
+        color:#555;
+        font-weight:300;
+        i {
+          margin-right:10px;
+        }
+      }
+    }
+  }
+
+  .social-icon {
+    margin-top: 20px;
+    ul {
+      li {
+        display: inline-block;
+        margin-right: 10px;
+        @include mobile-xs {
+          margin-bottom:5px;
+          margin-right: 5px;
+
+        }
+        a {
+          display: block;
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          border: 1px solid $black;
+          text-align: center;
+          &:hover {
+            background: $primary-color;
+            color:$light;
+            border:1px solid $primary-color;
+            i {
+              color: $light;
+            }
+          }
+          i {
+            color: $black;
+            display: inline-block;
+            font-size: 20px;
+            line-height: 50px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+
+  .error {
+    display: none;
+    padding: 10px;
+    color: #D8000C;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: #FFBABA;
+  }
+
+  .success {
+    background-color: #6cb670;
+    border-radius: 4px;
+    color: #fff;
+    display: none;
+    font-size: 13px;
+    padding: 10px;
+  }

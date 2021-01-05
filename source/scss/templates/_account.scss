@@ -1,0 +1,36 @@
+.account {
+  .block {
+    background-color: $light;
+    border:1px solid $border-color;
+    padding:30px;
+    margin:100px 0;
+    .logo {
+      display: inline-block;
+    }
+    a {
+      color:$black;
+    }
+    h2 {
+      font-weight:400;
+      font-size: 25px;
+      text-transform:uppercase;
+      margin-top: 40px;
+    }
+    form {
+      margin-top: 40px;
+      .btn-main {
+        @include mobile-xs {
+          padding:14px 19px;
+        }
+      }
+      p {
+        margin-bottom:20px;
+      }
+      input[type="email"],input[type="password"],input[type="text"]{
+        border-radius:0;
+        box-shadow:none;
+      }
+    }
+  }
+}
+

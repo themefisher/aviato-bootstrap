@@ -1,0 +1,36 @@
+.background {
+	background-size:cover;
+}
+.bg-100 {
+	height:100vh;
+}
+.bg-1 {
+	background-image:url(../images/backgrounds/bg-1.jpg);
+	background-size:cover;
+}
+
+.bg-2 {
+	background-image: url('../images/page-header-1.jpg');
+	background-size: cover;
+	&:before {
+		background: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		content: '';
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+	}
+}
+
+.bg-coming-soon {
+	background: url('../images/backgrounds/coming-soon-bg.jpg');
+	background-size:cover;
+	height:100vh;
+}
+
+.bg-brand-identity {
+	background-image: url('../images/backgrounds/brand-identity-bg.jpg');
+	background-repeat:no-repeat;
+	
+}

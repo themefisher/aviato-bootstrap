@@ -2681,7 +2681,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .copyright-text a {
-  color: #fff;
+  color: #000;
 }
 
 .social-media li {

@@ -7,22 +7,6 @@
 
 @charset "UTF-8";
 /*------------------------------------------------------------------
-
-THEME: Aviato | E-commerce template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/aviato-e-commerce-template/
-DEMO: https://demo.themefisher.com/aviato/
-GITHUB: https://github.com/themefisher/Aviato-E-Commerce-Template/
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-
-
-
-/*------------------------------------------------------------------
 [Table of contents]
 
 1. Body
@@ -900,14 +884,14 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .hero-slider .btn {
   font-size: 15px;
   font-weight: 400;
-  color: white;
+  color: rgb(255, 255, 255);
   letter-spacing: 1px;
   font-family: "Roboto Condensed";
-  border-color: white;
+  border-color: rgb(255, 255, 255);
   border-style: solid;
   border-width: 2px;
   outline: none;
-  box-shadow: #999999 0px 0px 0px 0px;
+  box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
   box-sizing: border-box;
   padding: 12px 26px;
   opacity: 1;
@@ -925,7 +909,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   font-size: 49px;
   line-height: 49px;
   font-weight: 400;
-  color: white;
+  color: rgb(255, 255, 255);
   letter-spacing: -2px;
   font-family: "Playfair Display";
   margin-bottom: 35px;

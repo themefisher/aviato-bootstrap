@@ -1,20 +1,4 @@
 /*------------------------------------------------------------------
-
-THEME: Aviato | E-commerce template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/aviato-e-commerce-template/
-DEMO: https://demo.themefisher.com/aviato/
-GITHUB: https://github.com/themefisher/Aviato-E-Commerce-Template/
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-
-
-
-/*------------------------------------------------------------------
 [Table of contents]
 
 1. Body
@@ -57,57 +41,50 @@ FACEBOOK: https://www.facebook.com/themefisher
 
 -------------------------------------------------------------------*/
 
+@import "variables.scss";
 
-@import 'variables.scss';
+@import "media-query.scss";
 
-@import 'media-query.scss';
+@import "typography.scss";
 
-@import 'typography.scss';
+@import "common.scss";
 
-@import 'common.scss';
+@import "templates/header.scss";
 
-@import 'templates/header.scss';
+@import "templates/navigation.scss";
 
-@import 'templates/navigation.scss';
+@import "templates/slider.scss";
 
-@import 'templates/slider.scss';
+@import "templates/products.scss";
 
-@import 'templates/products.scss';
+@import "templates/single-product.scss";
 
-@import 'templates/single-product.scss';
+@import "templates/pricing.scss";
 
-@import 'templates/pricing.scss';
+@import "templates/clients.scss";
 
-@import 'templates/clients.scss';
+@import "templates/about.scss";
 
-@import 'templates/about.scss';
+@import "templates/instagram.scss";
 
-@import 'templates/instagram.scss';
+@import "templates/user-dashboard.scss";
 
-@import 'templates/user-dashboard.scss';
+@import "templates/blog.scss";
 
-@import 'templates/blog.scss';
+@import "templates/single-post.scss";
 
-@import 'templates/single-post.scss';
+@import "templates/blog-sidebar.scss";
 
-@import 'templates/blog-sidebar.scss';
+@import "templates/backgrounds.scss";
 
-@import 'templates/backgrounds.scss';
+@import "templates/coming-soon.scss";
 
-@import 'templates/coming-soon.scss';
+@import "templates/account.scss";
 
-@import 'templates/account.scss';
+@import "templates/shopping.scss";
 
-@import 'templates/shopping.scss';
+@import "templates/404.scss";
 
-@import 'templates/404.scss';
+@import "templates/contact.scss";
 
-@import 'templates/contact.scss';
-
-@import 'templates/footer.scss';
-
-
-
-
-
-
+@import "templates/footer.scss";
